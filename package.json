@@ -1,0 +1,30 @@
+{
+  "name": "vue-split-input",
+  "version": "0.0.1",
+  "description": "Vue Split input for otp verification etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dammy001/vue-split-input.git"
+  },
+  "keywords": [
+    "vue",
+    "2",
+    "vue",
+    "3",
+    "vuejs",
+    "component",
+    "input",
+    "split-input",
+    "multiple-input"
+  ],
+  "author": "damilare anjorin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dammy001/vue-split-input/issues"
+  },
+  "homepage": "https://github.com/dammy001/vue-split-input#readme"
+}
