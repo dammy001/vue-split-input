@@ -1,6 +1,6 @@
 {
   "name": "vue-split-input",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Vue Split input for otp verification etc",
   "main": "index.ts",
   "scripts": {

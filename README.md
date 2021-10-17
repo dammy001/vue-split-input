@@ -1,6 +1,6 @@
-# vue3-split-input
-
 # Split Input Component for Vue 3.x
+
+Used for otps, transaction pin, passwords etc
 
 ### Install
 
