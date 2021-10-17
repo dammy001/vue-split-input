@@ -1,7 +1,6 @@
 <template>
  <div
   v-for="i in inputNumber"
-  class="form-group"
   :class="`grid grid-cols-${maxLength} gap-4`"
   :key="i"
  >
@@ -12,7 +11,7 @@
     }
    "
    :type="type"
-   class="input input-split"
+   :class="className"
    v-on="computedListeners"
    :maxlength="maxLength"
    v-model="values[i - 1]"
@@ -50,8 +49,12 @@
     type: String as PropType<'text' | 'password' | 'tel'>,
     default: 'tel',
    },
+   className: {
+    type: String,
+    default: '',
+   },
   },
-  emits: ['update:modelValue', 'changeStep'],
+  emits: ['update:modelValue'],
   setup: (props: Prop, { emit, attrs }: SetupContext) => {
    const data: SplitInputType = reactive({
     index: null,
@@ -82,14 +85,14 @@
     () => input.value?.[data.index - 1],
    );
 
-   const computedListeners: any = {
+   const computedListeners = {
     ...attrs,
-    blur: () => (data.index = null),
-    change: () => emit('update:modelValue', joinedValues.value),
-    focus: (event: FocusEvent) => {
+    blur: (): any => (data.index = null),
+    change: (): void => emit('update:modelValue', joinedValues.value),
+    focus: (event: FocusEvent): void => {
      data.index = [...input.value].indexOf(event.target);
     },
-    input: (event: InputEvent) => {
+    input: (event: InputEvent): void => {
      if (event.inputType === 'insertText') {
       navigate(nextInput.value);
      }
