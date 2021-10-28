@@ -99,9 +99,9 @@
      }
      emit('update:modelValue', joinedValues.value);
     },
-    keydown: (event: KeyboardEvent): void => {
+    keydown: (event: any): void => {
      const cursorPosition = Number(event.target.dataset.index);
-     const currentValue =  data.values[cursorPosition];
+     const currentValue = data.values[cursorPosition];
      switch (event?.code) {
       case 'ArrowDown':
        navigate(lastInput.value);
