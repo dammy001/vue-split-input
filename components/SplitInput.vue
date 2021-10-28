@@ -107,7 +107,6 @@
        break;
       case 'ArrowLeft':
        if (cursorPosition === 0 || !currentValue) {
-        console.log('keydown', previousInput?.value);
         navigate(previousInput.value);
        }
        break;
