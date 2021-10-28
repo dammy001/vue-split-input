@@ -1,7 +1,7 @@
 import { App, defineAsyncComponent } from 'vue';
 import type { Prop } from './type';
 
-export { Prop };
+export type { Prop };
 
 export default {
  install: (app: App, options = {}): void => {
