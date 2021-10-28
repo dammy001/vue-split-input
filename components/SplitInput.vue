@@ -15,6 +15,7 @@
    v-on="computedListeners"
    :maxlength="maxLength"
    v-model="values[i - 1]"
+   :data-index="`${i - 1}`"
   />
  </div>
 </template>
@@ -99,8 +100,8 @@
      emit('update:modelValue', joinedValues.value);
     },
     keydown: (event: KeyboardEvent): void => {
-     const cursorPosition = input?.value.selectionEnd;
-     const currentValue = input?.value.value;
+     const cursorPosition = Number(event.target.dataset.index);
+     const currentValue =  data.values[cursorPosition];
      switch (event?.code) {
       case 'ArrowDown':
        navigate(lastInput.value);
@@ -119,7 +120,8 @@
        navigate(firstInput.value);
        break;
       case 'Backspace':
-       if (cursorPosition === 0) {
+       if (cursorPosition !== 0) {
+        data.values[cursorPosition] = '';
         navigate(previousInput.value);
        }
        break;
