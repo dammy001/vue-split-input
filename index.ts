@@ -1,5 +1,5 @@
 import { App, defineAsyncComponent } from 'vue';
-import { Prop } from './type';
+import type { Prop } from './type';
 
 export { Prop };
 
