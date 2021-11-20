@@ -152,14 +152,11 @@
     },
    };
 
-   watch(
-    () => modelValue,
-    (value: any) => {
-     if (value !== joinedValues.value) {
-      mapModelData();
-     }
-    },
-   );
+   watch(modelValue, (value: any) => {
+    if (value !== joinedValues.value) {
+     mapModelData();
+    }
+   });
 
    onBeforeUpdate(() => (input.value = []));
 
