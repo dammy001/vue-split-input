@@ -29,6 +29,6 @@
   "homepage": "https://github.com/dammy001/vue-split-input#readme",
   "devDependencies": {
     "typescript": "4.5.2",
-    "vue": "3.2.22"
+    "vue": "3.2.23"
   }
 }
