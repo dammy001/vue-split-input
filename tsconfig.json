@@ -1,22 +1,23 @@
 {
-    "compilerOptions": {
-      "allowSyntheticDefaultImports": true,
-      "types": ["node"],
-      "target": "esnext",
-      "useDefineForClassFields": true,
-      "module": "esnext",
-      "moduleResolution": "node",
-      "strict": true,
-      "jsx": "preserve",
-      "sourceMap": false,
-      "resolveJsonModule": true,
-      "esModuleInterop": true,
-      "lib": ["esnext", "dom"],
-      "outDir": "./dist",
-      "baseUrl": ".",
-      "skipLibCheck": true,
-      "removeComments": false
-    },
-    "exclude": ["node_modules", "./dist/*"],
-    "include": ["components/*"]
-  }
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"],
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "outDir": "dist",
+    "baseUrl": ".",
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "removeComments": false
+  },
+  "exclude": ["node_modules"],
+  "include": ["components/**/*.vue", "."]
+}
