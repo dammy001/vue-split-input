@@ -131,23 +131,9 @@
     },
     paste: (event: ClipboardEvent): void => {
      event.preventDefault();
-     const pasteValue = event.clipboardData.getData('text/plain');
-     const pasteValues = [];
-
-     let newValues = [...data.values];
-     for (let i = 0; i < inputNumber.value - data.index; i += 1) {
-      const char = pasteValue[i];
-      if (char) {
-       pasteValues.push(char);
-      }
-     }
-
-     newValues.splice(data.index, inputNumber.value - data.index + 1);
-     newValues = newValues.concat(pasteValues);
-     data.values = newValues;
-     const lastIndex = newValues.length - 1;
-
-     navigate(input.value[lastIndex]);
+     const pasteValues = event.clipboardData.getData('text/plain').split('').slice(0, inputNumber.value);
+     data.values = pasteValues;
+     navigate(input.value[pasteValues.length < inputNumber.value ? pasteValues.length - 1 : inputNumber.value - 1]);
      emit('update:modelValue', joinedValues.value);
     },
    };
