@@ -1,6 +1,6 @@
 {
   "name": "vue-split-input",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Vue Split input for otp verification etc",
   "main": "index.ts",
   "scripts": {
@@ -20,7 +20,9 @@
     "component",
     "input",
     "split-input",
-    "multiple-input"
+    "multiple-input",
+    "otp input",
+    "transaction pin"
   ],
   "author": "damilare anjorin",
   "license": "MIT",

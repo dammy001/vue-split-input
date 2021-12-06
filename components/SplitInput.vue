@@ -32,6 +32,7 @@
   SetupContext,
   ComputedRef,
   onBeforeUpdate,
+  Ref,
  } from 'vue';
  import { SplitInputType, Prop } from '../type';
  export default defineComponent({
@@ -64,7 +65,7 @@
 
    const { inputNumber, modelValue } = toRefs(props);
 
-   const input = ref<any>([]);
+   const input: Ref<HTMLInputElement[]> = ref<HTMLInputElement[]>([]);
 
    const firstInput: ComputedRef<HTMLInputElement> = computed(
     () => input.value?.[0],
@@ -91,7 +92,7 @@
     blur: (): any => (data.index = null),
     change: (): void => emit('update:modelValue', joinedValues.value),
     focus: (event: FocusEvent): void => {
-     data.index = [...input.value].indexOf(event.target);
+     data.index = [...input.value].indexOf(event.target as HTMLInputElement);
     },
     input: (event: InputEvent): void => {
      if (event.inputType === 'insertText') {
@@ -131,24 +132,36 @@
     },
     paste: (event: ClipboardEvent): void => {
      event.preventDefault();
-     const pasteValues = event.clipboardData.getData('text/plain').split('').slice(0, inputNumber.value);
+     const pasteValues: string[] = (event.clipboardData as DataTransfer)
+      .getData('text/plain')
+      .split('')
+      .slice(0, inputNumber.value);
      data.values = pasteValues;
-     navigate(input.value[pasteValues.length < inputNumber.value ? pasteValues.length - 1 : inputNumber.value - 1]);
+     navigate(
+      input.value[
+       pasteValues.length < inputNumber.value
+        ? pasteValues.length - 1
+        : inputNumber.value - 1
+      ],
+     );
      emit('update:modelValue', joinedValues.value);
     },
    };
 
-   watch(modelValue, (value: any) => {
-    if (value !== joinedValues.value) {
-     mapModelData();
-    }
-   });
+   watch(
+    () => modelValue,
+    (value: Ref<string | undefined> | undefined) => {
+     if (value !== joinedValues.value) {
+      mapModelData();
+     }
+    },
+   );
 
    onBeforeUpdate(() => (input.value = []));
 
    onMounted(() => mapModelData());
 
-   const mapModelData = (): string[] =>
+   const mapModelData = (): string[] | undefined =>
     (data.values = modelValue?.value?.toString().split(''));
 
    const navigate = (input: HTMLInputElement): void => {
