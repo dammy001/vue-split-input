@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/dammy001/vue-split-input#readme",
   "devDependencies": {
-    "@types/node": "16.11.12",
+    "@types/node": "16.11.13",
     "typescript": "4.5.4",
     "vue": "3.2.26"
   }
