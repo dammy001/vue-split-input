@@ -6,14 +6,15 @@ Used for otps, transaction pin, passwords etc
 
 #### NPM
 
-```
+```bash
+//with npm
 npm i vue-split-input --save
-```
 
-#### Yarn
-
-```
+//with yarn
 yarn add vue-split-input
+
+//with pnpm
+pnpm i vue-split-input
 ```
 
 ### Usage
