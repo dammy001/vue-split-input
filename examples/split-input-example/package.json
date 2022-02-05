@@ -1,6 +1,6 @@
 {
   "name": "split-input-example",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "vue": "^3.2.25",
-    "vue-split-input": "^0.9.35"
+    "vue-split-input": "^1.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
