@@ -1,8 +1,8 @@
 {
   "name": "vue-split-input",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Vue Split input for otp verification etc",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "module": "index.ts",
   "files": [
     "index.ts",
@@ -11,10 +11,11 @@
     "type.ts"
   ],
   "scripts": {
+    "postbuild": "copyfiles -u 1 **/*.vue dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -b",
     "typecheck": "tsc --noEmit",
     "dev": "pnpm -r --filter {examples/split-input-example} run dev",
+    "build": "pnpm typecheck && pnpm postbuild && tsc -b",
     "release": "bumpp package.json examples/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "repository": {
@@ -44,6 +45,7 @@
   "devDependencies": {
     "@types/node": "16.11.22",
     "bumpp": "7.1.1",
+    "copyfiles": "^2.4.1",
     "typescript": "4.5.5",
     "vue": "3.2.29"
   }
