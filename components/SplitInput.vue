@@ -111,8 +111,8 @@
 
    const currentPlaceholder: ComputedRef<string> = computed(
     () =>
-     (isRef(placeholders) && unref(placeholders)?.[data.index]) ||
-     unref(placeholder),
+     ((isRef(placeholders) && unref(placeholders)?.[data.index]) ||
+      unref(placeholder)) as string,
    );
 
    const computedListeners = {

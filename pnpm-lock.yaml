@@ -24,7 +24,7 @@ importers:
       typescript: ^4.5.5
       vite: ^2.7.13
       vue: ^3.2.25
-      vue-split-input: ^0.9.35
+      vue-split-input: ^1.0.2
       vue-tsc: ^0.29.8
     dependencies:
       vue: 3.2.29

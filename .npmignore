@@ -1,2 +1,4 @@
-/renovate.json
-examples/*
+renovate.json
+examples
+.github
+scripts
