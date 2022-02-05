@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@types/node': 16.11.22
-      bumpp: ^7.1.1
+      bumpp: 7.1.1
       typescript: 4.5.5
       vue: 3.2.29
     devDependencies:
@@ -28,7 +28,7 @@ importers:
       vue-tsc: ^0.29.8
     dependencies:
       vue: 3.2.29
-      vue-split-input: link:../..
+      vue-split-input: 0.9.35
     devDependencies:
       '@vitejs/plugin-vue': 2.1.0_vite@2.7.13+vue@3.2.29
       autoprefixer: 10.4.2_postcss@8.4.6
@@ -1626,6 +1626,10 @@ packages:
       vscode-pug-languageservice: 0.29.8
       vscode-typescript-languageservice: 0.29.8
     dev: true
+
+  /vue-split-input/0.9.35:
+    resolution: {integrity: sha512-QX7RTz8jDIx20fEBQsC/yBGdRrf2a5CIcMNP7xjgx9O/1JontfitdOblNDarJoDHvFeOqy5VbsfedurktZcBfA==}
+    dev: false
 
   /vue-tsc/0.29.8_typescript@4.5.5:
     resolution: {integrity: sha512-pT0wLRjvRuSmB+J4WJT6uuV9mO0KtSSXEAtaVXZQzyk5+DJdbLIQTbRce/TXSkfqt1l1WogO78RjtOJFiMCgfQ==}
