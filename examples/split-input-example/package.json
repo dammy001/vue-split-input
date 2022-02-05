@@ -1,6 +1,6 @@
 {
   "name": "split-input-example",
-  "version": "0.9.35",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
