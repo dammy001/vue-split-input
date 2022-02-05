@@ -19,5 +19,4 @@
     "removeComments": false
   },
   "exclude": ["node_modules", "dist", "examples"],
-  
 }

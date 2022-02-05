@@ -2,13 +2,14 @@
   "name": "vue-split-input",
   "version": "1.0.3",
   "description": "Vue Split input for otp verification etc",
-  "main": "dist/index.js",
+  "main": "index.ts",
   "module": "index.ts",
-  "types": "dist/type.ts",
+  "types": "index.d.ts",
   "files": [
     "index.ts",
-    "dist/*",
-    "components/**/*.vue"
+    "dist",
+    "components/**/*.vue",
+    "index.d.ts"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

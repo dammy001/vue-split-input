@@ -1,6 +1,6 @@
 import { App, defineAsyncComponent } from 'vue';
 
-export * from './type';
+export type { SplitInputType, Prop } from './type';
 
 export default {
  install: (app: App, options = {}): void => {
