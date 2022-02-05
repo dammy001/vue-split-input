@@ -3,9 +3,10 @@ export type SplitInputType = {
  index?: any;
 };
 
-export type Prop = {
+export interface Prop extends HTMLInputElement {
  modelValue?: string;
  inputNumber: number;
- maxLength: number;
+ placeholders?: string[] | undefined;
  type: string;
-};
+ clearAllInput: () => void;
+}

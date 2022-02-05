@@ -13,7 +13,9 @@
    :type="type"
    :class="className"
    v-on="computedListeners"
+   :disabled="disabled"
    :maxlength="maxLength"
+   :placeholder="currentPlaceholder"
    v-model="values[i - 1]"
    :data-index="`${i - 1}`"
   />
@@ -33,6 +35,9 @@
   ComputedRef,
   onBeforeUpdate,
   Ref,
+  nextTick,
+  isRef,
+  unref,
  } from 'vue';
  import { SplitInputType, Prop } from '../type';
  export default defineComponent({
@@ -55,15 +60,28 @@
     type: String,
     default: '',
    },
+   disabled: {
+    type: Boolean,
+    default: false,
+   },
+   placeholder: {
+    type: String,
+    default: '',
+   },
+   placeholders: {
+    type: Array,
+    default: null,
+   },
   },
-  emits: ['update:modelValue'],
+  emits: ['update:modelValue', 'focus'],
   setup: (props: Prop, { emit, attrs }: SetupContext) => {
    const data: SplitInputType = reactive({
     index: null,
     values: [],
    });
 
-   const { inputNumber, modelValue } = toRefs(props);
+   const { inputNumber, modelValue, placeholders, placeholder } =
+    toRefs<Prop>(props);
 
    const input: Ref<HTMLInputElement[]> = ref<HTMLInputElement[]>([]);
 
@@ -83,8 +101,18 @@
     () => input.value?.[data.index + 1],
    );
 
+   const currentInput: ComputedRef<HTMLInputElement> = computed(
+    () => input.value?.[data.index],
+   );
+
    const previousInput: ComputedRef<HTMLInputElement> = computed(
     () => input.value?.[data.index - 1],
+   );
+
+   const currentPlaceholder: ComputedRef<string> = computed(
+    () =>
+     (isRef(placeholders) && unref(placeholders)?.[data.index]) ||
+     unref(placeholder),
    );
 
    const computedListeners = {
@@ -93,6 +121,7 @@
     change: (): void => emit('update:modelValue', joinedValues.value),
     focus: (event: FocusEvent): void => {
      data.index = [...input.value].indexOf(event.target as HTMLInputElement);
+     nextTick(() => emit('focus', event));
     },
     input: (event: InputEvent): void => {
      if (event.inputType === 'insertText') {
@@ -103,24 +132,29 @@
     keydown: (event: any): void => {
      const cursorPosition = Number(event.target.dataset.index);
      const currentValue = data.values[cursorPosition];
-     switch (event?.code) {
+     switch (event?.code || event?.key || event?.which || event?.keyCode) {
       case 'ArrowDown':
+      case 40:
        navigate(lastInput.value);
        break;
       case 'ArrowLeft':
+      case 37:
        if (cursorPosition === 0 || !currentValue) {
         navigate(previousInput.value);
        }
        break;
       case 'ArrowRight':
+      case 39:
        if (cursorPosition === 1 || !currentValue) {
         navigate(nextInput.value);
        }
        break;
       case 'ArrowUp':
+      case 38:
        navigate(firstInput.value);
        break;
       case 'Backspace':
+      case 8:
        if (cursorPosition !== 0) {
         data.values[cursorPosition] = '';
         navigate(previousInput.value);
@@ -171,11 +205,26 @@
     }
    };
 
+   const clearAllInput = (): void => {
+    data.values = [];
+    nextTick(() => emit('update:modelValue', joinedValues.value));
+   };
+
    return {
     ...toRefs(data),
     input,
     computedListeners,
+    currentPlaceholder,
+    currentInput,
+    clearAllInput,
    };
   },
  });
 </script>
+
+<style scoped>
+ :disabled {
+  pointer-events: none;
+  opacity: 0.5;
+ }
+</style>
