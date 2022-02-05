@@ -1,12 +1,16 @@
 {
   "name": "vue-split-input",
-  "version": "0.9.0",
+  "version": "0.9.35",
   "description": "Vue Split input for otp verification etc",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "module": "index.ts",
+  "types": "dist/type.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -b",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "dev": "pnpm -r --filter {examples/split-input-example} run dev",
+    "release": "bumpp package.json examples/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "repository": {
     "type": "git",
@@ -23,7 +27,8 @@
     "split-input",
     "multiple-input",
     "otp input",
-    "transaction pin"
+    "transaction pin",
+    "one time password"
   ],
   "author": "damilare anjorin",
   "license": "MIT",
