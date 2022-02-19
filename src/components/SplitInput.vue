@@ -1,7 +1,7 @@
 <template>
  <div
   v-for="i in inputNumber"
-  :class="`grid grid-cols-${maxLength} gap-4`"
+  class="`grid grid-cols-${maxLength} gap-4`"
   :key="i"
  >
   <input
@@ -17,7 +17,7 @@
    :maxlength="maxLength"
    :placeholder="currentPlaceholder"
    v-model="values[i - 1]"
-   :data-index="`${i - 1}`"
+   :data-index="i - 1"
   />
  </div>
 </template>
@@ -39,7 +39,8 @@
   isRef,
   unref,
  } from 'vue';
- import { SplitInputType, Prop } from '../type';
+ import type { SplitInputType, Prop } from '../type';
+
  export default defineComponent({
   inheritAttrs: false,
   props: {
@@ -83,7 +84,7 @@
    const { inputNumber, modelValue, placeholders, placeholder } =
     toRefs<Prop>(props);
 
-   const input: Ref<HTMLInputElement[]> = ref<HTMLInputElement[]>([]);
+   const input: Ref<any> = ref<any>([]);
 
    const firstInput: ComputedRef<HTMLInputElement> = computed(
     () => input.value?.[0],

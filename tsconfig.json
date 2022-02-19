@@ -1,22 +1,10 @@
 {
+  "extends": "@damilaredev/tsconfig/tsconfig.web.json",
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "types": ["node"],
-    "target": "esnext",
-    "useDefineForClassFields": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "strict": true,
-    "jsx": "preserve",
-    "sourceMap": false,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "lib": ["esnext", "dom"],
-    "outDir": "dist",
     "baseUrl": ".",
-    "rootDir": ".",
-    "skipLibCheck": true,
-    "removeComments": false
+    "isolatedModules": false,
+    "types": ["vite/client"]
   },
-  "exclude": ["node_modules", "dist", "examples"],
+  "exclude": ["node_modules", "dist", "examples", "scripts"],
+  "include": ["./src/**/*"]
 }
