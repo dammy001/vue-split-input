@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@damilaredev/tsconfig': 1.5.0
       '@types/node': 16.11.26
-      '@vitejs/plugin-vue': 2.2.2
+      '@vitejs/plugin-vue': 2.2.4
       bumpp: 7.1.1
       microbundle: 0.14.2
       typescript: 4.5.5
@@ -17,7 +17,7 @@ importers:
     devDependencies:
       '@damilaredev/tsconfig': 1.5.0
       '@types/node': 16.11.26
-      '@vitejs/plugin-vue': 2.2.2_vite@2.8.4+vue@3.2.31
+      '@vitejs/plugin-vue': 2.2.4_vite@2.8.4+vue@3.2.31
       bumpp: 7.1.1
       microbundle: 0.14.2
       typescript: 4.5.5
@@ -1493,6 +1493,17 @@ packages:
       vue: ^3.2.25
     dependencies:
       vite: 2.8.4_sass@1.49.8
+      vue: 3.2.31
+    dev: true
+
+  /@vitejs/plugin-vue/2.2.4_vite@2.8.4+vue@3.2.31:
+    resolution: {integrity: sha512-ev9AOlp0ljCaDkFZF3JwC/pD2N4Hh+r5srl5JHM6BKg5+99jiiK0rE/XaRs3pVm1wzyKkjUy/StBSoXX5fFzcw==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      vite: ^2.5.10
+      vue: ^3.2.25
+    dependencies:
+      vite: 2.8.4
       vue: 3.2.31
     dev: true
 
