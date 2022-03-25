@@ -9,7 +9,7 @@ importers:
       '@vitejs/plugin-vue': 2.2.4
       bumpp: 7.1.1
       microbundle: 0.14.2
-      typescript: 4.6.2
+      typescript: 4.6.3
       vite: 2.8.6
       vue: 3.2.31
     dependencies:
@@ -20,7 +20,7 @@ importers:
       '@vitejs/plugin-vue': 2.2.4_vite@2.8.6+vue@3.2.31
       bumpp: 7.1.1
       microbundle: 0.14.2
-      typescript: 4.6.2
+      typescript: 4.6.3
       vite: 2.8.6
 
   examples/split-input-example:
@@ -3207,12 +3207,12 @@ packages:
       rollup-plugin-bundle-size: 1.0.3
       rollup-plugin-postcss: 4.0.2_postcss@8.4.6
       rollup-plugin-terser: 7.0.2_rollup@2.67.3
-      rollup-plugin-typescript2: 0.29.0_rollup@2.67.3+typescript@4.6.2
+      rollup-plugin-typescript2: 0.29.0_rollup@2.67.3+typescript@4.6.3
       sade: 1.8.1
       terser: 5.10.0
       tiny-glob: 0.2.9
       tslib: 2.3.1
-      typescript: 4.6.2
+      typescript: 4.6.3
     transitivePeerDependencies:
       - '@types/babel__core'
       - acorn
@@ -4083,7 +4083,7 @@ packages:
       - acorn
     dev: true
 
-  /rollup-plugin-typescript2/0.29.0_rollup@2.67.3+typescript@4.6.2:
+  /rollup-plugin-typescript2/0.29.0_rollup@2.67.3+typescript@4.6.3:
     resolution: {integrity: sha512-YytahBSZCIjn/elFugEGQR5qTsVhxhUwGZIsA9TmrSsC88qroGo65O5HZP/TTArH2dm0vUmYWhKchhwi2wL9bw==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -4095,7 +4095,7 @@ packages:
       resolve: 1.17.0
       rollup: 2.67.3
       tslib: 2.0.1
-      typescript: 4.6.2
+      typescript: 4.6.3
     dev: true
 
   /rollup-pluginutils/2.8.2:
@@ -4422,8 +4422,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript/4.6.2:
-    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
+  /typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
