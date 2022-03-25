@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@damilaredev/tsconfig': 1.5.0
+      '@damilaredev/tsconfig': 1.5.1
       '@types/node': 16.11.26
       '@vitejs/plugin-vue': 2.2.4
       bumpp: 7.1.1
@@ -15,7 +15,7 @@ importers:
     dependencies:
       vue: 3.2.31
     devDependencies:
-      '@damilaredev/tsconfig': 1.5.0
+      '@damilaredev/tsconfig': 1.5.1
       '@types/node': 16.11.26
       '@vitejs/plugin-vue': 2.2.4_vite@2.8.6+vue@3.2.31
       bumpp: 7.1.1
@@ -1303,8 +1303,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@damilaredev/tsconfig/1.5.0:
-    resolution: {integrity: sha512-+UmQ64CB28f06CUFGC6/JnSen2c200DuwH4NBjPHs61oNyv1szbJlvrw40PljaE4BNpC5wQCO5W4jpu+6VvsGQ==}
+  /@damilaredev/tsconfig/1.5.1:
+    resolution: {integrity: sha512-EbKb4Nl2+dpvdWNEUQtd+a+MS5tlR3vJtbIB+RqeMKfFynTiaN91mBmvk//cp+t64om1/Yy6x+4WqbPIwmakSw==}
     dev: true
 
   /@emmetio/abbreviation/2.2.3:
