@@ -49,7 +49,7 @@
   },
   "homepage": "https://github.com/dammy001/vue-split-input#readme",
   "dependencies": {
-    "vue": "3.2.31"
+    "vue": "3.2.32"
   },
   "peerDependencies": {
     "vue": "^3.2.*"
