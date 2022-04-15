@@ -10,18 +10,18 @@ importers:
       bumpp: 7.1.1
       microbundle: 0.14.2
       typescript: 4.6.3
-      vite: 2.9.1
+      vite: 2.9.5
       vue: 3.2.33
     dependencies:
       vue: 3.2.33
     devDependencies:
       '@damilaredev/tsconfig': 1.5.1
       '@types/node': 16.11.27
-      '@vitejs/plugin-vue': 2.3.1_vite@2.9.1+vue@3.2.33
+      '@vitejs/plugin-vue': 2.3.1_vite@2.9.5+vue@3.2.33
       bumpp: 7.1.1
       microbundle: 0.14.2
       typescript: 4.6.3
-      vite: 2.9.1
+      vite: 2.9.5
 
   examples/split-input-example:
     specifiers:
@@ -1496,14 +1496,14 @@ packages:
       vue: 3.2.31
     dev: true
 
-  /@vitejs/plugin-vue/2.3.1_vite@2.9.1+vue@3.2.33:
+  /@vitejs/plugin-vue/2.3.1_vite@2.9.5+vue@3.2.33:
     resolution: {integrity: sha512-YNzBt8+jt6bSwpt7LP890U1UcTOIZZxfpE5WOJ638PNxSEKOqAi0+FSKS0nVeukfdZ0Ai/H7AFd6k3hayfGZqQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.1
+      vite: 2.9.5
       vue: 3.2.33
     dev: true
 
@@ -4803,8 +4803,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/2.9.1:
-    resolution: {integrity: sha512-vSlsSdOYGcYEJfkQ/NeLXgnRv5zZfpAsdztkIrs7AZHV8RCMZQkwjo4DS5BnrYTqoWqLoUe1Cah4aVO4oNNqCQ==}
+  /vite/2.9.5:
+    resolution: {integrity: sha512-dvMN64X2YEQgSXF1lYabKXw3BbN6e+BL67+P3Vy4MacnY+UzT1AfkHiioFSi9+uiDUiaDy7Ax/LQqivk6orilg==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
