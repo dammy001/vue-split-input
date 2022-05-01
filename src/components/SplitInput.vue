@@ -17,7 +17,7 @@
    :maxlength="maxLength"
    :placeholder="currentPlaceholder"
    v-model="values[i - 1]"
-   :data-index="i - 1"
+   :data-index="`${i - 1}`"
   />
  </div>
 </template>

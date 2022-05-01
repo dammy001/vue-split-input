@@ -48,13 +48,11 @@
     "url": "https://github.com/dammy001/vue-split-input/issues"
   },
   "homepage": "https://github.com/dammy001/vue-split-input#readme",
-  "dependencies": {
-    "vue": "3.2.31"
-  },
   "peerDependencies": {
     "vue": "^3.2.*"
   },
   "devDependencies": {
+    "vue": "3.2.31",
     "@damilaredev/tsconfig": "1.5.0",
     "@vitejs/plugin-vue": "2.2.4",
     "@types/node": "16.11.26",
