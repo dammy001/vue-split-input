@@ -53,12 +53,12 @@
   },
   "devDependencies": {
     "vue": "3.2.31",
-    "@damilaredev/tsconfig": "1.5.0",
-    "@vitejs/plugin-vue": "2.2.4",
-    "@types/node": "16.11.26",
+    "@damilaredev/tsconfig": "1.5.1",
+    "@vitejs/plugin-vue": "2.3.1",
+    "@types/node": "16.11.32",
     "bumpp": "7.1.1",
-    "microbundle": "0.14.2",
-    "typescript": "4.6.2",
-    "vite": "2.8.6"
+    "microbundle": "0.15.0",
+    "typescript": "4.6.4",
+    "vite": "2.9.6"
   }
 }
