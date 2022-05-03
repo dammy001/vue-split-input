@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@damilaredev/tsconfig': 1.5.1
-      '@types/node': 16.11.32
+      '@types/node': 16.11.33
       '@vitejs/plugin-vue': 2.3.1
       bumpp: 7.1.1
       microbundle: 0.15.0
@@ -14,7 +14,7 @@ importers:
       vue: 3.2.31
     devDependencies:
       '@damilaredev/tsconfig': 1.5.1
-      '@types/node': 16.11.32
+      '@types/node': 16.11.33
       '@vitejs/plugin-vue': 2.3.1_vite@2.9.7+vue@3.2.31
       bumpp: 7.1.1
       microbundle: 0.15.0
@@ -1470,8 +1470,8 @@ packages:
     resolution: {integrity: sha512-CuPgU6f3eT/XgKKPqKd/gLZV1Xmvf1a2R5POBOGQa6uv82xpls89HU5zKeVoyR8XzHd1RGNOlQlvUe3CFkjWNQ==}
     dev: true
 
-  /@types/node/16.11.32:
-    resolution: {integrity: sha512-+fnfNvG5JQdC1uGZiTx+0QVtoOHcggy6+epx65JYroPGsE1uhp+vo5kioiGKsAkor6ocwHteU2EvO7N8vtOZtA==}
+  /@types/node/16.11.33:
+    resolution: {integrity: sha512-0PJ0vg+JyU0MIan58IOIFRtSvsb7Ri+7Wltx2qAg94eMOrpg4+uuP3aUHCpxXc1i0jCXiC+zIamSZh3l9AbcQA==}
     dev: true
 
   /@types/parse-json/4.0.0:
@@ -1481,7 +1481,7 @@ packages:
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 16.11.32
+      '@types/node': 16.11.33
     dev: true
 
   /@vitejs/plugin-vue/2.2.2_vite@2.8.4+vue@3.2.31:
@@ -3279,7 +3279,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 16.11.32
+      '@types/node': 16.11.33
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
