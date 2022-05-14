@@ -54,7 +54,7 @@
   "devDependencies": {
     "vue": "3.2.31",
     "@damilaredev/tsconfig": "1.5.1",
-    "@vitejs/plugin-vue": "2.3.2",
+    "@vitejs/plugin-vue": "2.3.3",
     "@types/node": "16.11.35",
     "bumpp": "7.1.1",
     "microbundle": "0.15.0",
