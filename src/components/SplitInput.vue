@@ -84,7 +84,7 @@
    const { inputNumber, modelValue, placeholders, placeholder } =
     toRefs<Prop>(props);
 
-   const input: Ref<any> = ref<any>([]);
+   const input: Ref<any> = ref([] as HTMLInputElement[]);
 
    const firstInput: ComputedRef<HTMLInputElement> = computed(
     () => input.value?.[0],
@@ -158,8 +158,8 @@
       case 8:
        if (cursorPosition !== 0) {
         data.values[cursorPosition] = '';
-        navigate(previousInput.value);
        }
+       nextTick(() => navigate(previousInput.value));
        break;
       default:
        break;
@@ -172,11 +172,12 @@
       .split('')
       .slice(0, inputNumber.value);
      data.values = pasteValues;
+
      navigate(
       input.value[
        pasteValues.length < inputNumber.value
         ? pasteValues.length - 1
-        : inputNumber.value - 1
+        : inputNumber.value
       ],
      );
      emit('update:modelValue', joinedValues.value);
