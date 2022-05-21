@@ -9,7 +9,7 @@
   ],
   "main": "./dist/index.es.js",
   "module": "./dist/index.es.js",
-  "types": "./src/index.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
@@ -49,12 +49,13 @@
   },
   "homepage": "https://github.com/dammy001/vue-split-input#readme",
   "peerDependencies": {
-    "vue": "^3.2.*"
+    "vue": "^3.*"
   },
   "devDependencies": {
     "vue": "3.2.35",
     "@damilaredev/tsconfig": "1.5.1",
     "@vitejs/plugin-vue": "2.3.3",
+    "vite-plugin-dts": "latest",
     "@types/node": "16.11.36",
     "bumpp": "7.1.1",
     "microbundle": "0.15.0",
