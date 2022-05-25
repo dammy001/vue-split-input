@@ -52,7 +52,7 @@
     "vue": "^3.*"
   },
   "devDependencies": {
-    "vue": "3.2.35",
+    "vue": "3.2.36",
     "@damilaredev/tsconfig": "1.5.1",
     "@vitejs/plugin-vue": "2.3.3",
     "vite-plugin-dts": "latest",
