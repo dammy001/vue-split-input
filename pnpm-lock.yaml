@@ -9,7 +9,7 @@ importers:
       '@vitejs/plugin-vue': 2.3.3
       bumpp: 7.1.1
       microbundle: 0.15.0
-      typescript: 4.6.4
+      typescript: 4.7.2
       vite: 2.9.9
       vite-plugin-dts: latest
       vue: 3.2.36
@@ -19,7 +19,7 @@ importers:
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.36
       bumpp: 7.1.1
       microbundle: 0.15.0
-      typescript: 4.6.4
+      typescript: 4.7.2
       vite: 2.9.9
       vite-plugin-dts: 1.2.0_vite@2.9.9
       vue: 3.2.36
@@ -3578,13 +3578,13 @@ packages:
       rollup-plugin-bundle-size: 1.0.3
       rollup-plugin-postcss: 4.0.2_postcss@8.4.14
       rollup-plugin-terser: 7.0.2_rollup@2.74.1
-      rollup-plugin-typescript2: 0.29.0_lq4dy2bb4fhoyaf2vwyb4geyfa
+      rollup-plugin-typescript2: 0.29.0_durm56y4qsrp7annnznb67puce
       rollup-plugin-visualizer: 5.6.0_rollup@2.74.1
       sade: 1.8.1
       terser: 5.13.1
       tiny-glob: 0.2.9
       tslib: 2.4.0
-      typescript: 4.6.4
+      typescript: 4.7.2
     transitivePeerDependencies:
       - '@types/babel__core'
       - supports-color
@@ -4501,7 +4501,7 @@ packages:
       terser: 5.13.1
     dev: true
 
-  /rollup-plugin-typescript2/0.29.0_lq4dy2bb4fhoyaf2vwyb4geyfa:
+  /rollup-plugin-typescript2/0.29.0_durm56y4qsrp7annnznb67puce:
     resolution: {integrity: sha512-YytahBSZCIjn/elFugEGQR5qTsVhxhUwGZIsA9TmrSsC88qroGo65O5HZP/TTArH2dm0vUmYWhKchhwi2wL9bw==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -4513,7 +4513,7 @@ packages:
       resolve: 1.17.0
       rollup: 2.74.1
       tslib: 2.0.1
-      typescript: 4.6.4
+      typescript: 4.7.2
     dev: true
 
   /rollup-plugin-visualizer/5.6.0_rollup@2.74.1:
@@ -4888,6 +4888,12 @@ packages:
 
   /typescript/4.6.4:
     resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /typescript/4.7.2:
+    resolution: {integrity: sha512-Mamb1iX2FDUpcTRzltPxgWMKy3fhg0TN378ylbktPGPK/99KbDtMQ4W1hwgsbPAsG3a0xKa1vmw4VKZQbkvz5A==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
