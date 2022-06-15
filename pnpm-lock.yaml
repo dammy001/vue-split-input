@@ -7,7 +7,7 @@ importers:
       '@damilaredev/tsconfig': 1.5.1
       '@types/node': 16.11.40
       '@vitejs/plugin-vue': 2.3.3
-      bumpp: 7.1.1
+      bumpp: 7.2.0
       microbundle: 0.15.0
       typescript: 4.7.3
       vite: 2.9.9
@@ -17,7 +17,7 @@ importers:
       '@damilaredev/tsconfig': 1.5.1
       '@types/node': 16.11.40
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.37
-      bumpp: 7.1.1
+      bumpp: 7.2.0
       microbundle: 0.15.0
       typescript: 4.7.3
       vite: 2.9.9
@@ -2093,8 +2093,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /bumpp/7.1.1:
-    resolution: {integrity: sha512-pAGjraw9T4I4dnkiQHrKUVQb55dOM5Nj72SVtVlkjFjWjFtg0aSgipQuxDWZ0cqm8WoqtaiBPk+7jHfnZxr7lA==}
+  /bumpp/7.2.0:
+    resolution: {integrity: sha512-vQxdpWe7VzdpV4dVjpWoGwTDrKZn4eqKVmjIYUlDgrmjesXAqJnWhu+VFxazoE4pLs1q5NwDhgzK1xAFL0K+Jg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -3341,7 +3341,7 @@ packages:
     dev: true
 
   /isexe/2.0.0:
-    resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
+    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: true
 
   /jake/10.8.5:
@@ -3462,7 +3462,7 @@ packages:
     dev: true
 
   /lodash.camelcase/4.3.0:
-    resolution: {integrity: sha1-soqmKIorn8ZRA1x3EfZathkDMaY=}
+    resolution: {integrity: sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==}
     dev: true
 
   /lodash.debounce/4.0.8:
