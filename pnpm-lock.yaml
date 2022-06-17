@@ -9,7 +9,7 @@ importers:
       '@vitejs/plugin-vue': 2.3.3
       bumpp: 8.2.0
       microbundle: 0.15.0
-      typescript: 4.7.3
+      typescript: 4.7.4
       vite: 2.9.9
       vite-plugin-dts: latest
       vue: 3.2.37
@@ -19,7 +19,7 @@ importers:
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.37
       bumpp: 8.2.0
       microbundle: 0.15.0
-      typescript: 4.7.3
+      typescript: 4.7.4
       vite: 2.9.9
       vite-plugin-dts: 1.2.0_vite@2.9.9
       vue: 3.2.37
@@ -3532,13 +3532,13 @@ packages:
       rollup-plugin-bundle-size: 1.0.3
       rollup-plugin-postcss: 4.0.2_postcss@8.4.14
       rollup-plugin-terser: 7.0.2_rollup@2.74.1
-      rollup-plugin-typescript2: 0.29.0_gtiwpwlqxqvlevrczl7gfv5u5i
+      rollup-plugin-typescript2: 0.29.0_qjdq52flf5u464vrw5uzrcz6y4
       rollup-plugin-visualizer: 5.6.0_rollup@2.74.1
       sade: 1.8.1
       terser: 5.13.1
       tiny-glob: 0.2.9
       tslib: 2.4.0
-      typescript: 4.7.3
+      typescript: 4.7.4
     transitivePeerDependencies:
       - '@types/babel__core'
       - supports-color
@@ -4455,7 +4455,7 @@ packages:
       terser: 5.13.1
     dev: true
 
-  /rollup-plugin-typescript2/0.29.0_gtiwpwlqxqvlevrczl7gfv5u5i:
+  /rollup-plugin-typescript2/0.29.0_qjdq52flf5u464vrw5uzrcz6y4:
     resolution: {integrity: sha512-YytahBSZCIjn/elFugEGQR5qTsVhxhUwGZIsA9TmrSsC88qroGo65O5HZP/TTArH2dm0vUmYWhKchhwi2wL9bw==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -4467,7 +4467,7 @@ packages:
       resolve: 1.17.0
       rollup: 2.74.1
       tslib: 2.0.1
-      typescript: 4.7.3
+      typescript: 4.7.4
     dev: true
 
   /rollup-plugin-visualizer/5.6.0_rollup@2.74.1:
@@ -4846,8 +4846,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript/4.7.3:
-    resolution: {integrity: sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==}
+  /typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
