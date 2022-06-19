@@ -7,7 +7,7 @@ importers:
       '@damilaredev/tsconfig': 1.5.1
       '@types/node': 16.11.41
       '@vitejs/plugin-vue': 2.3.3
-      bumpp: 8.2.0
+      bumpp: 8.2.1
       microbundle: 0.15.0
       typescript: 4.7.3
       vite: 2.9.9
@@ -17,7 +17,7 @@ importers:
       '@damilaredev/tsconfig': 1.5.1
       '@types/node': 16.11.41
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.37
-      bumpp: 8.2.0
+      bumpp: 8.2.1
       microbundle: 0.15.0
       typescript: 4.7.3
       vite: 2.9.9
@@ -2083,8 +2083,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /bumpp/8.2.0:
-    resolution: {integrity: sha512-DhFa4DSREOwnHJQyQ+Qhj9pUJAIZKMEtuHN7BuQij4CoxSBc6n4bBZnlvFWuLXNMr0aCtsMXnkQWC/7GyGypYw==}
+  /bumpp/8.2.1:
+    resolution: {integrity: sha512-4tHKsWC2mqHQvdjZ4AXgVhS2xMsz8qQ4zYt87vGRXW5tqAjrYa/UJqy7s/dGYI2OIe9ghBdiFhKpyKEX9SXffg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
