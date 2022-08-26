@@ -9,7 +9,7 @@ importers:
       '@vitejs/plugin-vue': 3.0.3
       bumpp: 8.2.1
       microbundle: 0.15.1
-      typescript: 4.7.4
+      typescript: 4.8.2
       vite: 3.0.2
       vite-plugin-dts: latest
       vue: 3.2.37
@@ -19,7 +19,7 @@ importers:
       '@vitejs/plugin-vue': 3.0.3_vite@3.0.2+vue@3.2.37
       bumpp: 8.2.1
       microbundle: 0.15.1
-      typescript: 4.7.4
+      typescript: 4.8.2
       vite: 3.0.2
       vite-plugin-dts: 1.4.1_vite@3.0.2
       vue: 3.2.37
@@ -42,7 +42,7 @@ importers:
       autoprefixer: 10.4.7_postcss@8.4.14
       postcss: 8.4.14
       sass: 1.52.1
-      tailwindcss: 3.0.24
+      tailwindcss: 3.0.24_postcss@8.4.14
       typescript: 4.6.4
       vite: 2.9.9_sass@1.52.1
       vue-tsc: 0.29.8_typescript@4.6.4
@@ -3749,13 +3749,13 @@ packages:
       rollup-plugin-bundle-size: 1.0.3
       rollup-plugin-postcss: 4.0.2_postcss@8.4.14
       rollup-plugin-terser: 7.0.2_rollup@2.74.1
-      rollup-plugin-typescript2: 0.32.1_qjdq52flf5u464vrw5uzrcz6y4
+      rollup-plugin-typescript2: 0.32.1_2263lhdwb573au5skbdvura6sm
       rollup-plugin-visualizer: 5.6.0_rollup@2.74.1
       sade: 1.8.1
       terser: 5.13.1
       tiny-glob: 0.2.9
       tslib: 2.4.0
-      typescript: 4.7.4
+      typescript: 4.8.2
     transitivePeerDependencies:
       - '@types/babel__core'
       - supports-color
@@ -4681,7 +4681,7 @@ packages:
       terser: 5.13.1
     dev: true
 
-  /rollup-plugin-typescript2/0.32.1_qjdq52flf5u464vrw5uzrcz6y4:
+  /rollup-plugin-typescript2/0.32.1_2263lhdwb573au5skbdvura6sm:
     resolution: {integrity: sha512-RanO8bp1WbeMv0bVlgcbsFNCn+Y3rX7wF97SQLDxf0fMLsg0B/QFF005t4AsGUcDgF3aKJHoqt4JF2xVaABeKw==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -4693,7 +4693,7 @@ packages:
       resolve: 1.22.1
       rollup: 2.74.1
       tslib: 2.4.0
-      typescript: 4.7.4
+      typescript: 4.8.2
     dev: true
 
   /rollup-plugin-visualizer/5.6.0_rollup@2.74.1:
@@ -4978,10 +4978,12 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /tailwindcss/3.0.24:
+  /tailwindcss/3.0.24_postcss@8.4.14:
     resolution: {integrity: sha512-H3uMmZNWzG6aqmg9q07ZIRNIawoiEcNFKDfL+YzOPuPsXuDXxJxB9icqzLgdzKNwjG3SAro2h9SYav8ewXNgig==}
     engines: {node: '>=12.13.0'}
     hasBin: true
+    peerDependencies:
+      postcss: ^8.0.9
     dependencies:
       arg: 5.0.1
       chokidar: 3.5.3
@@ -5077,8 +5079,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript/4.7.4:
-    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
+  /typescript/4.8.2:
+    resolution: {integrity: sha512-C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
