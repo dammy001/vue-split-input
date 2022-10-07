@@ -1,12 +1,12 @@
-import { App } from 'vue';
-import VueSplitInput from './components/SplitInput.vue';
+import type { App } from 'vue'
+import VueSplitInput from './components/SplitInput.vue'
 
-export type { SplitInputType, Prop } from './type';
+export type { SplitInputType, Prop } from './type'
 
 const SplitInput = {
- install: (app: App, options = {}): void => {
-  app.component('split-input', VueSplitInput);
- },
-};
+  install: (app: App, options = {}): void => {
+    app.component('SplitInput', VueSplitInput)
+  },
+}
 
-export default SplitInput;
+export default SplitInput
