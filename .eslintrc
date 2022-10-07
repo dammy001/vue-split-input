@@ -1,0 +1,15 @@
+{
+    "extends": "@damilaredev/eslint-config-vue",
+    "rules": {
+        "import/named": "off",
+        "@typescript-eslint/no-shadow": "warn"
+    },
+    "overrides": [
+        {
+            "files": "examples/split-input-examples/**/*.*",
+            "rules": {
+                "import/named": "off"
+            }
+        }
+    ]
+}
