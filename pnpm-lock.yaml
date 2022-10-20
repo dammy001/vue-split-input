@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@damilaredev/eslint-config-vue': 0.0.17
       '@damilaredev/tsconfig': 1.5.2
-      '@types/node': 16.11.65
+      '@types/node': 16.11.68
       '@vitejs/plugin-vue': 3.1.2
       bumpp: 8.2.1
       eslint: 8.25.0
@@ -18,7 +18,7 @@ importers:
     devDependencies:
       '@damilaredev/eslint-config-vue': 0.0.17_z4bbprzjrhnsfa24uvmcbu7f5q
       '@damilaredev/tsconfig': 1.5.2
-      '@types/node': 16.11.65
+      '@types/node': 16.11.68
       '@vitejs/plugin-vue': 3.1.2_vite@3.1.8+vue@3.2.41
       bumpp: 8.2.1
       eslint: 8.25.0
@@ -1743,8 +1743,8 @@ packages:
     resolution: {integrity: sha512-yxDeaQIAJlMav7fH5AQqPH1u8YIuhYJXYBzxaQ4PifsU0GDO38MSdmEDeRlIxrKbC6NbEaaEHDanWb+y30U8SQ==}
     dev: true
 
-  /@types/node/16.11.65:
-    resolution: {integrity: sha512-Vfz7wGMOr4jbQGiQHVJm8VjeQwM9Ya7mHe9LtQ264/Epf5n1KiZShOFqk++nBzw6a/ubgYdB9Od7P+MH/LjoWw==}
+  /@types/node/16.11.68:
+    resolution: {integrity: sha512-JkRpuVz3xCNCWaeQ5EHLR/6woMbHZz/jZ7Kmc63AkU+1HxnoUugzSWMck7dsR4DvNYX8jp9wTi9K7WvnxOIQZQ==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -1758,7 +1758,7 @@ packages:
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 16.11.65
+      '@types/node': 16.11.68
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.39.0_cfd7h3iktziq6hcwahu2qxhjhy:
@@ -4359,7 +4359,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 16.11.65
+      '@types/node': 16.11.68
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
