@@ -16,7 +16,7 @@
       "require": "./dist/index.umd.js"
     }
   },
-  "packageManager": "pnpm@7.13.4",
+  "packageManager": "pnpm@7.13.6",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "typecheck": "tsc --noEmit",
