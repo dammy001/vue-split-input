@@ -12,20 +12,20 @@ importers:
       eslint: 8.26.0
       microbundle: 0.15.1
       typescript: 4.8.4
-      vite: 3.2.1
+      vite: 3.2.2
       vite-plugin-dts: latest
       vue: 3.2.41
     devDependencies:
       '@damilaredev/eslint-config-vue': 0.0.17_wyqvi574yv7oiwfeinomdzmc3m
       '@damilaredev/tsconfig': 1.5.2
       '@types/node': 16.18.2
-      '@vitejs/plugin-vue': 3.2.0_vite@3.2.1+vue@3.2.41
+      '@vitejs/plugin-vue': 3.2.0_vite@3.2.2+vue@3.2.41
       bumpp: 8.2.1
       eslint: 8.26.0
       microbundle: 0.15.1
       typescript: 4.8.4
-      vite: 3.2.1
-      vite-plugin-dts: 1.6.6_vite@3.2.1
+      vite: 3.2.2
+      vite-plugin-dts: 1.6.6_vite@3.2.2
       vue: 3.2.41
 
   examples/split-input-example:
@@ -1898,14 +1898,14 @@ packages:
       vue: 3.2.40
     dev: true
 
-  /@vitejs/plugin-vue/3.2.0_vite@3.2.1+vue@3.2.41:
+  /@vitejs/plugin-vue/3.2.0_vite@3.2.2+vue@3.2.41:
     resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.2.1
+      vite: 3.2.2
       vue: 3.2.41
     dev: true
 
@@ -6246,7 +6246,7 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-plugin-dts/1.6.6_vite@3.2.1:
+  /vite-plugin-dts/1.6.6_vite@3.2.2:
     resolution: {integrity: sha512-XEZQlcAN5Bi1PWL0l/E08cI3VpjTCWY5x7C4/bVyC7lpS+/q9CDBCV8gGsqV97/g34N7gNNRNhqs8r0m6JAmIQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -6259,7 +6259,7 @@ packages:
       fs-extra: 10.1.0
       kolorist: 1.6.0
       ts-morph: 16.0.0
-      vite: 3.2.1
+      vite: 3.2.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6289,8 +6289,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/3.2.1:
-    resolution: {integrity: sha512-ADtMkfHuWq4tskJsri2n2FZkORO8ZyhI+zIz7zTrDAgDEtct1jdxOg3YsZBfHhKjmMoWLOSCr+64qrEDGo/DbQ==}
+  /vite/3.2.2:
+    resolution: {integrity: sha512-pLrhatFFOWO9kS19bQ658CnRYzv0WLbsPih6R+iFeEEhDOuYgYCX2rztUViMz/uy/V8cLCJvLFeiOK7RJEzHcw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
