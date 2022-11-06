@@ -57,7 +57,7 @@
   "devDependencies": {
     "@damilaredev/eslint-config-vue": "0.0.17",
     "@damilaredev/tsconfig": "1.5.2",
-    "@types/node": "16.18.2",
+    "@types/node": "16.18.3",
     "@vitejs/plugin-vue": "3.2.0",
     "bumpp": "8.2.1",
     "eslint": "8.26.0",
