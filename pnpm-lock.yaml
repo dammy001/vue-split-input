@@ -12,20 +12,20 @@ importers:
       eslint: 8.26.0
       microbundle: 0.15.1
       typescript: 4.8.4
-      vite: 3.2.2
+      vite: 3.2.3
       vite-plugin-dts: latest
       vue: 3.2.41
     devDependencies:
       '@damilaredev/eslint-config-vue': 0.0.17_wyqvi574yv7oiwfeinomdzmc3m
       '@damilaredev/tsconfig': 1.5.2
       '@types/node': 16.18.3
-      '@vitejs/plugin-vue': 3.2.0_vite@3.2.2+vue@3.2.41
+      '@vitejs/plugin-vue': 3.2.0_vite@3.2.3+vue@3.2.41
       bumpp: 8.2.1
       eslint: 8.26.0
       microbundle: 0.15.1
       typescript: 4.8.4
-      vite: 3.2.2
-      vite-plugin-dts: 1.6.6_vite@3.2.2
+      vite: 3.2.3_@types+node@16.18.3
+      vite-plugin-dts: 1.7.0_vite@3.2.3
       vue: 3.2.41
 
   examples/split-input-example:
@@ -1516,24 +1516,24 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@microsoft/api-extractor-model/7.25.1:
-    resolution: {integrity: sha512-AaZ0ohCGLRjWiZviM+0p/DaxgMhbawS183LW2+CSqyEBh6wZks7NjoyhzhibAYapS4omnrmv96+0V/2wBvnIZQ==}
+  /@microsoft/api-extractor-model/7.25.2:
+    resolution: {integrity: sha512-+h1uCrLQXFAKMUdghhdDcnniDB+6UA/lS9ArlB4QZQ34UbLuXNy2oQ6fafFK8cKXU4mUPTF/yGRjv7JKD5L7eg==}
     dependencies:
-      '@microsoft/tsdoc': 0.14.1
+      '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
       '@rushstack/node-core-library': 3.53.2
     dev: true
 
-  /@microsoft/api-extractor/7.33.1:
-    resolution: {integrity: sha512-FwhBbG4RlV2CqEsps2acIVCZz0evSDwotaJGwPhBvAKMYI9xm0pk2Jpuq6tTn2Xtjg4vPXH7bzJ2dPGl3FzgzQ==}
+  /@microsoft/api-extractor/7.33.5:
+    resolution: {integrity: sha512-ENoWpTWarKNuodpRFDQr3jyBigHuv98KuJ8H5qXc1LZ1aP5Mk77lCo88HbPisTmSnGevJJHTScfd/DPznOb4CQ==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.25.1
-      '@microsoft/tsdoc': 0.14.1
+      '@microsoft/api-extractor-model': 7.25.2
+      '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
       '@rushstack/node-core-library': 3.53.2
       '@rushstack/rig-package': 0.3.17
-      '@rushstack/ts-command-line': 4.12.5
+      '@rushstack/ts-command-line': 4.13.0
       colors: 1.2.5
       lodash: 4.17.21
       resolve: 1.17.0
@@ -1549,10 +1549,6 @@ packages:
       ajv: 6.12.6
       jju: 1.4.0
       resolve: 1.19.0
-    dev: true
-
-  /@microsoft/tsdoc/0.14.1:
-    resolution: {integrity: sha512-6Wci+Tp3CgPt/B9B0a3J4s3yMgLNSku6w5TV6mN+61C71UqsRBv2FUibBf3tPGlNxebgPHMEUzKpb1ggE8KCKw==}
     dev: true
 
   /@microsoft/tsdoc/0.14.2:
@@ -1687,8 +1683,8 @@ packages:
       strip-json-comments: 3.1.1
     dev: true
 
-  /@rushstack/ts-command-line/4.12.5:
-    resolution: {integrity: sha512-PCKrOu4RXKXPHcswHEQ9MYDW7Z7iQ+vbkvPtqHC46zFxD67ZCBXkm9P8QNOtED0cQzXh5nCtFnSOMuaOQf0GaQ==}
+  /@rushstack/ts-command-line/4.13.0:
+    resolution: {integrity: sha512-crLT31kl+qilz0eBRjqqYO06CqwbElc0EvzS6jI69B9Ikt1SkkSzIZ2iDP7zt/rd1ZYipKIS9hf9CQR9swDIKg==}
     dependencies:
       '@types/argparse': 1.0.38
       argparse: 1.0.10
@@ -1898,14 +1894,14 @@ packages:
       vue: 3.2.40
     dev: true
 
-  /@vitejs/plugin-vue/3.2.0_vite@3.2.2+vue@3.2.41:
+  /@vitejs/plugin-vue/3.2.0_vite@3.2.3+vue@3.2.41:
     resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.2.2
+      vite: 3.2.3_@types+node@16.18.3
       vue: 3.2.41
     dev: true
 
@@ -6246,20 +6242,20 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-plugin-dts/1.6.6_vite@3.2.2:
-    resolution: {integrity: sha512-XEZQlcAN5Bi1PWL0l/E08cI3VpjTCWY5x7C4/bVyC7lpS+/q9CDBCV8gGsqV97/g34N7gNNRNhqs8r0m6JAmIQ==}
+  /vite-plugin-dts/1.7.0_vite@3.2.3:
+    resolution: {integrity: sha512-SG1JRPFrrw8bseWXvKQJwcaZIoOcCsQjJub1h8hfywegdxJTT3hBDoKQyzT6Wi8wiTH3GidDWC2wxqiUS3gy5g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: '>=2.9.0'
     dependencies:
-      '@microsoft/api-extractor': 7.33.1
+      '@microsoft/api-extractor': 7.33.5
       '@rushstack/node-core-library': 3.53.2
       debug: 4.3.4
       fast-glob: 3.2.12
       fs-extra: 10.1.0
       kolorist: 1.6.0
       ts-morph: 16.0.0
-      vite: 3.2.2
+      vite: 3.2.3_@types+node@16.18.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6289,17 +6285,20 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/3.2.2:
-    resolution: {integrity: sha512-pLrhatFFOWO9kS19bQ658CnRYzv0WLbsPih6R+iFeEEhDOuYgYCX2rztUViMz/uy/V8cLCJvLFeiOK7RJEzHcw==}
+  /vite/3.2.3_@types+node@16.18.3:
+    resolution: {integrity: sha512-h8jl1TZ76eGs3o2dIBSsvXDLb1m/Ec1iej8ZMdz+PsaFUsftZeWe2CZOI3qogEsMNaywc17gu0q6cQDzh/weCQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
+      '@types/node': '>= 14'
       less: '*'
       sass: '*'
       stylus: '*'
       sugarss: '*'
       terser: ^5.4.0
     peerDependenciesMeta:
+      '@types/node':
+        optional: true
       less:
         optional: true
       sass:
@@ -6311,6 +6310,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 16.18.3
       esbuild: 0.15.10
       postcss: 8.4.18
       resolve: 1.22.1
