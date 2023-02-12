@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { Ref, ComponentPublicInstance } from 'vue'
+import type { ComponentPublicInstance, Ref } from 'vue'
 import type { Prop } from 'vue-split-input'
 
 const model: Ref<string> = ref('')
 
 const splitInputRef = ref<ComponentPublicInstance<Prop> | null>(null)
 
-const clear = () => splitInputRef.value?.clearAllInput()
+const clear = () => splitInputRef.value?.clearAllInput!()
 </script>
 <template>
   <div class="flex justify-center">
