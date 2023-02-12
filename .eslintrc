@@ -1,5 +1,5 @@
 {
-    "extends": "@damilaredev/eslint-config-vue",
+    "extends": "@damilaredev/eslint-config",
     "rules": {
         "import/named": "off",
         "@typescript-eslint/no-shadow": "warn"

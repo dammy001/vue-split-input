@@ -2,44 +2,43 @@
   <div
     v-for="i in inputNumber"
     :key="i"
-    class="`grid grid-cols-${maxLength} gap-4`"
+    :class="`grid grid-cols-${maxLength} gap-4`"
   >
-    <input
-      :ref="
-        (el) => {
-          if (el) input[i] = el;
-        }
-      "
-      v-model="values[i - 1]"
-      :type="type"
-      :class="className"
-      :disabled="disabled"
-      :maxlength="maxLength"
-      :placeholder="currentPlaceholder"
-      :data-index="`${i - 1}`"
-      v-on="computedListeners"
-    >
+    <div class="col-span-1">
+      <input
+        :ref="
+          (el) => {
+            if (el) input[i] = el;
+          }
+        "
+        v-model="values[i - 1]"
+        :type="type"
+        :class="className"
+        :disabled="disabled"
+        :maxlength="maxLength"
+        :placeholder="currentPlaceholder"
+        :data-index="`${i - 1}`"
+        v-on="computedListeners"
+      >
+    </div>
   </div>
 </template>
 <script lang="ts">
+import type { ComputedRef, PropType, Ref, SetupContext } from 'vue'
 import {
-  defineComponent,
-  reactive,
-  PropType,
-  watch,
-  onMounted,
-  toRefs,
-  ref,
   computed,
-  SetupContext,
-  ComputedRef,
-  onBeforeUpdate,
-  Ref,
-  nextTick,
+  defineComponent,
   isRef,
+  nextTick,
+  onBeforeUpdate,
+  onMounted,
+  reactive,
+  ref,
+  toRefs,
   unref,
+  watch,
 } from 'vue'
-import type { SplitInputType, Prop } from '../type'
+import type { Prop, SplitInputType } from '../type'
 
 export default defineComponent({
   inheritAttrs: false,
