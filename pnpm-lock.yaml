@@ -8,7 +8,7 @@ importers:
       '@damilaredev/eslint-config-vue': 0.0.18
       '@damilaredev/tsconfig': 1.5.2
       '@types/node': 18.13.0
-      '@vitejs/plugin-vue': 4.0.0
+      '@vitejs/plugin-vue': 4.1.0
       bumpp: 8.2.1
       eslint: 8.35.0
       microbundle: 0.15.1
@@ -21,7 +21,7 @@ importers:
       '@damilaredev/eslint-config-vue': 0.0.18_byynos7ffx3cepxtk6gvolkky4
       '@damilaredev/tsconfig': 1.5.2
       '@types/node': 18.13.0
-      '@vitejs/plugin-vue': 4.0.0_vite@4.1.1+vue@3.2.47
+      '@vitejs/plugin-vue': 4.1.0_vite@4.1.1+vue@3.2.47
       bumpp: 8.2.1
       eslint: 8.35.0
       microbundle: 0.15.1
@@ -2141,8 +2141,8 @@ packages:
       vue: 3.2.47
     dev: true
 
-  /@vitejs/plugin-vue/4.0.0_vite@4.1.1+vue@3.2.47:
-    resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
+  /@vitejs/plugin-vue/4.1.0_vite@4.1.1+vue@3.2.47:
+    resolution: {integrity: sha512-++9JOAFdcXI3lyer9UKUV4rfoQ3T1RN8yDqoCLar86s0xQct5yblxAE+yWgRnU5/0FOlVCpTZpYSBV/bGWrSrQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
