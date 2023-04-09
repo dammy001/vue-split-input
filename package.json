@@ -63,7 +63,7 @@
     "bumpp": "8.2.1",
     "eslint": "8.35.0",
     "microbundle": "0.15.1",
-    "typescript": "5.0.3",
+    "typescript": "5.0.4",
     "vite": "4.2.1",
     "vite-plugin-dts": "latest",
     "vue": "3.2.47"
