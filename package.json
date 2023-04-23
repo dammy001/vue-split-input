@@ -61,7 +61,7 @@
     "@types/node": "18.16.0",
     "@vitejs/plugin-vue": "4.1.0",
     "bumpp": "8.2.1",
-    "eslint": "8.35.0",
+    "eslint": "8.39.0",
     "microbundle": "0.15.1",
     "typescript": "5.0.4",
     "vite": "4.3.1",
