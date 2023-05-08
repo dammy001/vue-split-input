@@ -16,7 +16,7 @@
     },
     "./*": "./*"
   },
-  "packageManager": "pnpm@7.32.3",
+  "packageManager": "pnpm@8.4.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "typecheck": "tsc --noEmit",
