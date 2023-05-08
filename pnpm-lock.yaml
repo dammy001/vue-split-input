@@ -13,7 +13,7 @@ importers:
       eslint: 8.40.0
       microbundle: 0.15.1
       typescript: 5.0.4
-      vite: 4.3.1
+      vite: 4.3.5
       vite-plugin-dts: latest
       vue: 3.2.47
     devDependencies:
@@ -21,13 +21,13 @@ importers:
       '@damilaredev/eslint-config-vue': 0.0.18_3qfatcekpgbllh6uk5ivyhkbxq
       '@damilaredev/tsconfig': 1.5.2
       '@types/node': 18.16.5
-      '@vitejs/plugin-vue': 4.1.0_vite@4.3.1+vue@3.2.47
+      '@vitejs/plugin-vue': 4.1.0_vite@4.3.5+vue@3.2.47
       bumpp: 8.2.1
       eslint: 8.40.0
       microbundle: 0.15.1
       typescript: 5.0.4
-      vite: 4.3.1_@types+node@18.16.5
-      vite-plugin-dts: 2.3.0_jdewrghp5ujr3jxq5a5hltlgk4
+      vite: 4.3.5_@types+node@18.16.5
+      vite-plugin-dts: 2.3.0_uw3jrwe7f6wzb2eeyny6thwmae
       vue: 3.2.47
 
   examples/split-input-example:
@@ -2151,14 +2151,14 @@ packages:
       vue: 3.2.47
     dev: true
 
-  /@vitejs/plugin-vue/4.1.0_vite@4.3.1+vue@3.2.47:
+  /@vitejs/plugin-vue/4.1.0_vite@4.3.5+vue@3.2.47:
     resolution: {integrity: sha512-++9JOAFdcXI3lyer9UKUV4rfoQ3T1RN8yDqoCLar86s0xQct5yblxAE+yWgRnU5/0FOlVCpTZpYSBV/bGWrSrQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.3.1_@types+node@18.16.5
+      vite: 4.3.5_@types+node@18.16.5
       vue: 3.2.47
     dev: true
 
@@ -2248,7 +2248,7 @@ packages:
       '@vue/shared': 3.2.47
       estree-walker: 2.0.2
       magic-string: 0.25.9
-      postcss: 8.4.21
+      postcss: 8.4.23
       source-map: 0.6.1
 
   /@vue/compiler-ssr/3.2.47:
@@ -4809,6 +4809,12 @@ packages:
     resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+    dev: true
+
+  /nanoid/3.3.6:
+    resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
 
   /natural-compare/1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
@@ -5489,11 +5495,11 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /postcss/8.4.21:
-    resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==}
+  /postcss/8.4.23:
+    resolution: {integrity: sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
-      nanoid: 3.3.4
+      nanoid: 3.3.6
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
@@ -5903,8 +5909,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /rollup/3.20.2:
-    resolution: {integrity: sha512-3zwkBQl7Ai7MFYQE0y1MeQ15+9jsi7XxfrqwTb/9EK8D9C9+//EBR4M+CuA1KODRaNbFez/lWxA5vhEGZp4MUg==}
+  /rollup/3.21.5:
+    resolution: {integrity: sha512-a4NTKS4u9PusbUJcfF4IMxuqjFzjm6ifj76P54a7cKnvVzJaG12BLVR+hgU2YDGHzyMMQNxLAZWuALsn8q2oQg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -6440,7 +6446,7 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-plugin-dts/2.3.0_jdewrghp5ujr3jxq5a5hltlgk4:
+  /vite-plugin-dts/2.3.0_uw3jrwe7f6wzb2eeyny6thwmae:
     resolution: {integrity: sha512-WbJgGtsStgQhdm3EosYmIdTGbag5YQpZ3HXWUAPCDyoXI5qN6EY0V7NXq0lAmnv9hVQsvh0htbYcg0Or5Db9JQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -6456,7 +6462,7 @@ packages:
       kolorist: 1.7.0
       magic-string: 0.29.0
       ts-morph: 18.0.0
-      vite: 4.3.1_@types+node@18.16.5
+      vite: 4.3.5_@types+node@18.16.5
     transitivePeerDependencies:
       - '@types/node'
       - rollup
@@ -6488,8 +6494,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.3.1_@types+node@18.16.5:
-    resolution: {integrity: sha512-EPmfPLAI79Z/RofuMvkIS0Yr091T2ReUoXQqc5ppBX/sjFRhHKiPPF/R46cTdoci/XgeQpB23diiJxq5w30vdg==}
+  /vite/4.3.5_@types+node@18.16.5:
+    resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -6515,8 +6521,8 @@ packages:
     dependencies:
       '@types/node': 18.16.5
       esbuild: 0.17.15
-      postcss: 8.4.21
-      rollup: 3.20.2
+      postcss: 8.4.23
+      rollup: 3.21.5
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
