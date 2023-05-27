@@ -64,7 +64,7 @@
     "eslint": "8.41.0",
     "microbundle": "0.15.1",
     "typescript": "5.0.4",
-    "vite": "4.3.5",
+    "vite": "4.3.9",
     "vite-plugin-dts": "latest",
     "vue": "3.3.2"
   }
