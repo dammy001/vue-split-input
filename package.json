@@ -66,6 +66,6 @@
     "typescript": "5.0.4",
     "vite": "4.3.9",
     "vite-plugin-dts": "latest",
-    "vue": "3.3.2"
+    "vue": "3.3.4"
   }
 }
