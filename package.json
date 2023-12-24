@@ -60,7 +60,7 @@
     "@damilaredev/tsconfig": "1.5.2",
     "@types/node": "20.10.5",
     "@vitejs/plugin-vue": "4.5.2",
-    "bumpp": "9.2.0",
+    "bumpp": "9.2.1",
     "eslint": "8.56.0",
     "microbundle": "0.15.1",
     "typescript": "5.2.2",
