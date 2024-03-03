@@ -58,7 +58,7 @@
     "@damilaredev/eslint-config": "^0.0.19",
     "@damilaredev/eslint-config-vue": "0.0.19",
     "@damilaredev/tsconfig": "1.5.2",
-    "@types/node": "20.11.16",
+    "@types/node": "20.11.24",
     "@vitejs/plugin-vue": "5.0.4",
     "bumpp": "9.3.0",
     "eslint": "8.56.0",
