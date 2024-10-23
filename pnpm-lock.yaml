@@ -22,7 +22,7 @@ importers:
         version: 20.16.13
       '@vitejs/plugin-vue':
         specifier: 5.0.4
-        version: 5.0.4(vite@5.4.9)(vue@3.4.38)
+        version: 5.0.4(vite@5.4.10)(vue@3.4.38)
       bumpp:
         specifier: 9.7.1
         version: 9.7.1
@@ -36,11 +36,11 @@ importers:
         specifier: 5.4.5
         version: 5.4.5
       vite:
-        specifier: 5.4.9
-        version: 5.4.9(@types/node@20.16.13)
+        specifier: 5.4.10
+        version: 5.4.10(@types/node@20.16.13)
       vite-plugin-dts:
         specifier: latest
-        version: 3.6.0(@types/node@20.16.13)(rollup@2.79.1)(typescript@5.4.5)(vite@5.4.9)
+        version: 3.6.0(@types/node@20.16.13)(rollup@2.79.1)(typescript@5.4.5)(vite@5.4.10)
       vue:
         specifier: 3.4.38
         version: 3.4.38(typescript@5.4.5)
@@ -2341,14 +2341,14 @@ packages:
       vue: 3.2.47
     dev: true
 
-  /@vitejs/plugin-vue@5.0.4(vite@5.4.9)(vue@3.4.38):
+  /@vitejs/plugin-vue@5.0.4(vite@5.4.10)(vue@3.4.38):
     resolution: {integrity: sha512-WS3hevEszI6CEVEx28F8RjTX97k3KsrcY6kvTg7+Whm5y3oYvcqzVeGCU3hxSAn4uY2CLCkeokkGKpoctccilQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.4.9(@types/node@20.16.13)
+      vite: 5.4.10(@types/node@20.16.13)
       vue: 3.4.38(typescript@5.4.5)
     dev: true
 
@@ -7083,7 +7083,7 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-plugin-dts@3.6.0(@types/node@20.16.13)(rollup@2.79.1)(typescript@5.4.5)(vite@5.4.9):
+  /vite-plugin-dts@3.6.0(@types/node@20.16.13)(rollup@2.79.1)(typescript@5.4.5)(vite@5.4.10):
     resolution: {integrity: sha512-doxhDRFJCZD2sGjIp4V800nm8Y19GvmwckjG5vYPuiqJ7OBjc9NlW1Vp9Gkyh2aXlUs1jTDRH/lxWfcsPLOQHg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -7099,7 +7099,7 @@ packages:
       debug: 4.3.4
       kolorist: 1.8.0
       typescript: 5.4.5
-      vite: 5.4.9(@types/node@20.16.13)
+      vite: 5.4.10(@types/node@20.16.13)
       vue-tsc: 1.8.8(typescript@5.4.5)
     transitivePeerDependencies:
       - '@types/node'
@@ -7132,8 +7132,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vite@5.4.9(@types/node@20.16.13):
-    resolution: {integrity: sha512-20OVpJHh0PAM0oSOELa5GaZNWeDjcAvQjGXy2Uyr+Tp+/D2/Hdz6NLgpJLsarPTA2QJ6v8mX2P1ZfbsSKvdMkg==}
+  /vite@5.4.10(@types/node@20.16.13):
+    resolution: {integrity: sha512-1hvaPshuPUtxeQ0hsVH3Mud0ZanOLwVTneA1EgbAM5LhaZEqyPWGRQ7BtaMvUrTDeEaC8pxtj6a6jku3x4z6SQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
