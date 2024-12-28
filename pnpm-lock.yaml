@@ -24,8 +24,8 @@ importers:
         specifier: 5.2.1
         version: 5.2.1(vite@5.4.9)(vue@3.5.13)
       bumpp:
-        specifier: 9.9.0
-        version: 9.9.0
+        specifier: 9.9.2
+        version: 9.9.2
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -2975,8 +2975,8 @@ packages:
       semver: 7.6.3
     dev: true
 
-  /bumpp@9.9.0:
-    resolution: {integrity: sha512-d6Bv4O26po6gOrrjqDQte4+LxedxW885ZW7gJcNFUwkn9XH+8tKIB80za69SRluWkAgWPmSt7288pkMpzY1lnw==}
+  /bumpp@9.9.2:
+    resolution: {integrity: sha512-ggRxRV1rWHEyWXnf55UqYzGvttS/Vpkl1zxcNdE5xoYMTHlSgRA0Td4nKn3ckCcMuC+MTgaGQrbKBeyr0V9+Hg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
