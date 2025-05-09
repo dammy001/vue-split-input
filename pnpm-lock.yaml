@@ -21,8 +21,8 @@ importers:
         specifier: 20.16.13
         version: 20.16.13
       '@vitejs/plugin-vue':
-        specifier: 5.2.1
-        version: 5.2.1(vite@5.4.14)(vue@3.5.13)
+        specifier: 5.2.4
+        version: 5.2.4(vite@5.4.14)(vue@3.5.13)
       bumpp:
         specifier: 9.10.2
         version: 9.10.2
@@ -2361,8 +2361,8 @@ packages:
       vue: 3.2.47
     dev: true
 
-  /@vitejs/plugin-vue@5.2.1(vite@5.4.14)(vue@3.5.13):
-    resolution: {integrity: sha512-cxh314tzaWwOLqVes2gnnCtvBDcM1UMdn+iFR+UjAn411dPT3tOmqrJjbMd7koZpMAmBM/GqeV4n9ge7JSiJJQ==}
+  /@vitejs/plugin-vue@5.2.4(vite@5.4.14)(vue@3.5.13):
+    resolution: {integrity: sha512-7Yx/SXSOcQq5HiiV3orevHUFn+pmMB4cgbEkDYgnkUWb0WfeQ/wa2yFv6D5ICiCQOVpjA7vYDXrC7AGO8yjDHA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0 || ^6.0.0
